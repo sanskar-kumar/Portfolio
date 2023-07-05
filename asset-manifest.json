@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.9beb7e83.css",
+    "main.js": "/Portfolio/static/js/main.5a55799f.js",
+    "static/css/141.a78981ef.chunk.css": "/Portfolio/static/css/141.a78981ef.chunk.css",
+    "static/js/141.a28ae34a.chunk.js": "/Portfolio/static/js/141.a28ae34a.chunk.js",
+    "static/css/769.b3cbb36b.chunk.css": "/Portfolio/static/css/769.b3cbb36b.chunk.css",
+    "static/js/769.7bf051e8.chunk.js": "/Portfolio/static/js/769.7bf051e8.chunk.js",
+    "static/media/Montserrat-Regular.ttf": "/Portfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/Agustina.woff": "/Portfolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/manOnTable.svg": "/Portfolio/static/media/manOnTable.4cd2dad8f08ca5060f90ecdcebf5192a.svg",
+    "static/media/contactMailDark.svg": "/Portfolio/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
+    "static/media/developerActivity.svg": "/Portfolio/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
+    "static/media/nitdelhilogo.png": "/Portfolio/static/media/nitdelhilogo.ba72796edbb0e39815f1.png",
+    "static/media/flipkart grid.jpg": "/Portfolio/static/media/flipkart grid.6f87d9e0218c1a548988.jpg",
+    "static/media/navyugconvent.jpg": "/Portfolio/static/media/navyugconvent.4dfa059e0d18d930d13e.jpg",
+    "static/media/skill.svg": "/Portfolio/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
+    "index.html": "/Portfolio/index.html",
+    "static/media/talksCardBack.svg": "/Portfolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
+    "main.9beb7e83.css.map": "/Portfolio/static/css/main.9beb7e83.css.map",
+    "main.5a55799f.js.map": "/Portfolio/static/js/main.5a55799f.js.map",
+    "141.a78981ef.chunk.css.map": "/Portfolio/static/css/141.a78981ef.chunk.css.map",
+    "141.a28ae34a.chunk.js.map": "/Portfolio/static/js/141.a28ae34a.chunk.js.map",
+    "769.b3cbb36b.chunk.css.map": "/Portfolio/static/css/769.b3cbb36b.chunk.css.map",
+    "769.7bf051e8.chunk.js.map": "/Portfolio/static/js/769.7bf051e8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9beb7e83.css",
+    "static/js/main.5a55799f.js"
+  ]
+}
