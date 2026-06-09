@@ -1,0 +1,88 @@
+@import "../../_globalColor";
+
+.hobbies-heading {
+  font-size: 56px;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0px;
+}
+
+.hobbies-subtitle {
+  text-transform: uppercase;
+  margin: 0px;
+  margin-bottom: 50px;
+}
+
+.hobbies-cards-div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.hobby-card {
+  background-color: $lightBackground2;
+  border-radius: 10px;
+  padding: 25px 30px;
+  min-width: 180px;
+  max-width: 220px;
+  text-align: center;
+  box-shadow: $lightBoxShadow;
+  transition: all 0.3s ease;
+}
+
+.hobby-card:hover {
+  box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+}
+
+.dark-mode.hobby-card {
+  background-color: $darkBackground;
+  box-shadow: $darkBoxShadow;
+}
+
+.hobby-emoji {
+  font-size: 48px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.hobby-name {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0 0 8px;
+  color: $titleColor;
+}
+
+.dark-mode .hobby-name {
+  color: white;
+}
+
+.hobby-description {
+  font-size: 13px;
+  color: $textColor;
+  margin: 0;
+  line-height: 1.4;
+}
+
+@media (max-width: 1380px) {
+  .hobbies-heading {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hobbies-heading {
+    font-size: 30px;
+    text-align: center;
+  }
+  .hobbies-subtitle {
+    font-size: 16px;
+    line-height: normal;
+    text-align: center;
+  }
+  .hobby-card {
+    min-width: 140px;
+    max-width: 160px;
+  }
+}

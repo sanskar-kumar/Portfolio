@@ -1,13 +1,9 @@
 import React from "react";
-import "./App.scss";
-import Main from "./containers/Main";
+import "./ApplePortfolio.css";
+import ApplePortfolio from "./ApplePortfolio";
 
 function App() {
-  return (
-    <div>
-      <Main />
-    </div>
-  );
+  return <ApplePortfolio />;
 }
 
 export default App;

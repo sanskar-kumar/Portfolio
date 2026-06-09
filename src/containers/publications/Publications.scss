@@ -1,0 +1,114 @@
+@import "../../_globalColor";
+
+.publication-heading {
+  font-size: 56px;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0px;
+}
+
+.publication-subtitle {
+  text-transform: uppercase;
+  margin: 0px;
+  margin-bottom: 50px;
+}
+
+.publication-cards-div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.publication-card {
+  background-color: $lightBackground2;
+  border-radius: 10px;
+  padding: 30px;
+  max-width: 700px;
+  width: 100%;
+  box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.publication-card:hover {
+  box-shadow: $lightBoxShadowDark 0px 20px 30px -10px;
+}
+
+.dark-mode.publication-card {
+  background-color: $darkBackground;
+  color: $textColorDark;
+}
+
+.dark-mode.publication-card:hover {
+  background-color: $buttonColor;
+  box-shadow: 0px 0px 16px $darkBoxShadow;
+}
+
+.publication-card-header {
+  margin-bottom: 10px;
+}
+
+.publication-publisher {
+  background-color: #00a1e0;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.publication-card-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 15px 0 10px;
+  color: $titleColor;
+}
+
+.dark-mode .publication-card-title,
+.dark-mode.publication-card .publication-card-title {
+  color: $textColorDark;
+}
+
+.publication-card-description {
+  font-size: 14px;
+  line-height: 1.6;
+  color: $textColor;
+  margin-bottom: 15px;
+}
+
+.dark-mode.publication-card .publication-card-description {
+  color: $textColorDark;
+}
+
+.publication-card-link {
+  color: #00a1e0;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.publication-card-link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 1380px) {
+  .publication-heading {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .publication-heading {
+    font-size: 30px;
+    text-align: center;
+  }
+  .publication-subtitle {
+    font-size: 16px;
+    line-height: normal;
+    text-align: center;
+  }
+}
